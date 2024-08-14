@@ -1,3 +1,4 @@
 gitTestFile
 file modified
 file modified again
+file modified twice again
