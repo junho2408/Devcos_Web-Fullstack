@@ -1,9 +1,29 @@
+.delbutton{
+  background-color: cornsilk;
+  color:red;
+  margin-left: 10%;
+  font-size : 16px;
+}
+
+.board{
+  background-color: cornsilk;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 2%;
+  margin: 0 3%;
+  overflow: hidden;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+}
+
 .container{
   max-width: 80%;
   margin: 0 auto;
   padding: 20px;
   background-color: black;
   color: aliceblue;
+  text-align: center;
 }
 
 .test{
