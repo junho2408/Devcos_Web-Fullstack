@@ -9,7 +9,7 @@ export interface ILogITem{
     logId: string;
     logAuthor: string;
     logMessage:string;
-    logTimestamp: string;
+    logTimeStamp: string;
 }
 
 export interface IBoard{

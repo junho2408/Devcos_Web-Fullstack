@@ -1,9 +1,24 @@
-import React from 'react'
+import { style } from "@vanilla-extract/css";
+import { vars } from "../../../App.css";
 
-const SideForm.css = () => {
-  return (
-    <div>SideForm.css</div>
-  )
-}
+export const sideForm = style({
+  display: 'flex',
+  alignItems: 'center',
+  marginLeft: 'auto'
+})
 
-export default SideForm.css
+export const input = style({
+  padding: vars.spacing.small,
+  fontSize: vars.fontSizing.T4,
+  minHeight: 30
+})
+
+export const icon = style({
+  color: vars.color.brightText,
+  fontSize: vars.fontSizing.T2,
+  marginLeft: vars.spacing.medium,
+  cursor: 'pointer',
+  ":hover": {
+    opacity: 0.8
+  }
+})
