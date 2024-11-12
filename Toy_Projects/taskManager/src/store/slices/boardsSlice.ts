@@ -118,5 +118,6 @@ const boardsSlice = createSlice({
     },
   },
 });
+
 export const {addBoard, deleteList, setModalActive, addTask, addList} = boardsSlice.actions;
 export const boardsReducer = boardsSlice.reducer;
